@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: #27296d;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rem;
+  background: #5e63b6;
+  padding: 10px;
+}
+
+.password {
+  height: 20px;
+  width: 300px;
+  background: #a393eb;
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+
+.length {
+  width: 40px;
+  background: #a393eb;
+  border: none;
+}
+
+input {
+  float: right;
+  background-color: #a393eb;
+}
+
+div {
+  margin-top: 5px;
+}
+.generate {
+  width: 250px;
+  height: 50px;
+  margin-left: 35px;
+  background: #a393eb;
+  border: none;
+  cursor: pointer;
+}
+
+.copy {
+  position: absolute;
+  right: 50rem;
+  background: #f5c7f7;
+  cursor: pointer;
+  border: none;
+}
+
+.upper,
+.lower,
+.numbers,
+.symbols {
+  accent-color: #a393eb;
+}
